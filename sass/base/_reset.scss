@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: $unit__normal;
+}
+
+#root {
+  max-width: 120rem;
+  min-height: 50rem;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $color__dark;
+}
