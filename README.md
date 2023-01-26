@@ -1,12 +1,12 @@
 Hi 👋, I'm Tanzeel Akhtar, a passionate frontend developer from Pakistan.
 
-This is a **README** file of [SEO: Smart Business Corporation](https://tanzeel.website/) Repository. It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
+This is a **README** file of [SEO: Smart Business Corporation](https://tanzeelniazi.github.io/Smart_Business_Corporation_SEO/) Repository. It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
 
 # Project Name: SEO: Smart Business Corporation
 
 - Desktop only.
 
-### Website Demo: [https://tanzeel.website](https://tanzeel.website)
+### Website Demo: [https://tanzeelniazi.github.io/Smart_Business_Corporation_SEO/](https://tanzeelniazi.github.io/Smart_Business_Corporation_SEO/)
 
 # Additional Information
 
@@ -43,3 +43,4 @@ Visit [www.tanzeel.website](http://www.tanzeel.website) or contact me on tanzeel
 Following Images/Designs/Icons are used for creation of this website:
 
 - [Website Design Inspiration](https://www.behance.net/gallery/100940893/SEO-website-design-concept)
+- [Woman Wearing Gray Shirt](https://www.pexels.com/photo/woman-wearing-gray-shirt-3184298/)

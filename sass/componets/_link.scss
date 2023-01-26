@@ -1,0 +1,83 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__normal;
+}
+
+.link {
+  &:link,
+  &:visited {
+    font-weight: 500;
+    color: $color__dark;
+    transition: all 0.4s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__primary;
+  }
+}
+
+.selected-link {
+  position: relative;
+
+  &:link,
+  &:visited {
+    color: $color__primary;
+    transition: all 0.3s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__dark;
+  }
+
+  &::after {
+    position: absolute;
+    bottom: -10px;
+    right: 15px;
+    content: "";
+    display: block;
+    width: $unit__small;
+    height: $unit__small;
+    background: $color__primary;
+    border-radius: 50%;
+  }
+
+  &:hover::after {
+    background: $color__dark;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: $unit__medium;
+}
+
+.cta {
+  display: inline-block;
+  padding: $unit__normal $unit__medium;
+  background: $color__primary;
+  border-radius: 30px;
+
+  &:link,
+  &:visited {
+    color: $color__light;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__light;
+    background: $color__secondary;
+  }
+}
+
+.svg-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: $unit__normal;
+}

@@ -30,4 +30,141 @@ a {
   color: #122448;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.link:link, .link:visited {
+  font-weight: 500;
+  color: #122448;
+  transition: all 0.4s;
+}
+.link:hover, .link:active {
+  color: #24daaa;
+}
+
+.selected-link {
+  position: relative;
+}
+.selected-link:link, .selected-link:visited {
+  color: #24daaa;
+  transition: all 0.3s;
+}
+.selected-link:hover, .selected-link:active {
+  color: #122448;
+}
+.selected-link::after {
+  position: absolute;
+  bottom: -10px;
+  right: 15px;
+  content: "";
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #24daaa;
+  border-radius: 50%;
+}
+.selected-link:hover::after {
+  background: #122448;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3.2rem;
+}
+
+.cta {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  background: #24daaa;
+  border-radius: 30px;
+}
+.cta:link, .cta:visited {
+  color: #fff;
+}
+.cta:hover, .cta:active {
+  color: #fff;
+  background: #112347;
+}
+
+.svg-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.6rem;
+}
+
+.svg-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.2rem;
+  margin: 6.4rem auto;
+}
+
+.hero-content {
+  width: 40%;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  width: 40rem;
+}
+
+.hero-image-bg {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 90%;
+  height: 90%;
+  background: #24daaa;
+  border-radius: 0 25% 0 25%;
+  z-index: -1;
+}
+
+.hero-image {
+  border-radius: 0 25% 0 25%;
+  width: 100%;
+  box-shadow: -5px -5px 0 2px rgba(255, 255, 255, 0.35);
+}
+
+.content-welcome {
+  display: inline-block;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #24daaa;
+  text-transform: uppercase;
+}
+
+.content-title {
+  font-size: 6.4rem;
+  font-weight: 900;
+  margin: 3.2rem 0;
+}
+
+.highlighted {
+  color: #24daaa;
+}
+
+.content-desc {
+  line-height: 1.8;
+  margin: 3.2rem 0;
+}
+
 /*# sourceMappingURL=main.css.map */
